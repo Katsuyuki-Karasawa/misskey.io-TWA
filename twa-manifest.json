@@ -3,7 +3,7 @@
   "host": "misskey.io",
   "name": "Misskey.io",
   "launcherName": "Misskey.io",
-  "display": "fullscreen-sticky",
+  "display": "standalone",
   "themeColor": "#86B300",
   "navigationColor": "#000000",
   "navigationColorDark": "#000000",
