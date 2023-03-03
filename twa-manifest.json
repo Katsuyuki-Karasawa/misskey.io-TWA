@@ -1,0 +1,53 @@
+{
+  "packageId": "io.misskey.twa",
+  "host": "misskey.io",
+  "name": "Misskey.io",
+  "launcherName": "Misskey.io",
+  "display": "fullscreen-sticky",
+  "themeColor": "#86B300",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#313A42",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://misskey.io/static-assets/icons/512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\4ranc\\Documents\\github\\misskey-io-TWA\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://misskey.io/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://misskey.io/",
+  "minSdkVersion": 19,
+  "shareTarget": {
+    "action": "https://misskey.io/share/",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
